@@ -37,7 +37,7 @@ const main = async () => {
     .forEach(async file => {
       const target = getPath(file.name)
       if (target) {
-        console.log(`${file} -> ${target}`)
+        console.log(`${file.name} -> ${target}`)
       }
     })
 }
