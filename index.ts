@@ -22,7 +22,7 @@ const getPath = (file: string) => {
       const season = match ? match[1].padStart(2, '0') : '01'
       match = file.match(regex)
       const episode = match ? match[1] : '01'
-      return path.join(storageDir, dir, `S${season}E${episode}`)
+      return path.join(storageDir, dir, `S${season}E${episode}${path.extname(file)}`)
     }
   }
 
