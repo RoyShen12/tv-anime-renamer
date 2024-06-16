@@ -18,7 +18,7 @@ export const list = {
   '恋语轻唱 (2024)/S1':
     /\[Nekomoe kissaten&LoliHouse\] Sasayaku You ni Koi wo Utau - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
   '夜晚的水母不会游泳 (2024)/S1':
-    /\[Nekomoe kissaten&LoliHouse\] Yoru no Kurage wa Oyogenai - 09 \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
+    /\[Nekomoe kissaten&LoliHouse\] Yoru no Kurage wa Oyogenai - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
   '声优广播的台前幕后 (2024)/S1': /\[Nekomoe kissaten\]\[Seiyuu Radio no Uraomote\]\[(\d\d)\]\[1080p\]\[JPSC\]\.mp4/,
   '无名记忆 (2024)/S1': /\[Nekomoe kissaten\]\[Unnamed Memory\]\[(\d\d)\]\[1080p\]\[JPSC\]\.mp4/,
   '为美好的世界献上祝福！ (2016)/S3':

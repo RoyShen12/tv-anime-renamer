@@ -22,6 +22,7 @@ const getPath = (file: string) => {
       const season = match ? match[1].padStart(2, '0') : '01'
       match = file.match(regex)
       const episode = match ? match[1] : '01'
+      if (!episode) return null
       return path.join(storageDir, dir, `S${season}E${episode}${path.extname(file)}`)
     }
   }
@@ -36,8 +37,8 @@ const main = async () => {
     .filter(file => file.isFile())
     .forEach(async file => {
       const target = getPath(file.name)
+      console.log(`${file.name} -> ${target}`)
       if (target) {
-        console.log(`${file.name} -> ${target}`)
       }
     })
 }
