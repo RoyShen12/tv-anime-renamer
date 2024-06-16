@@ -39,7 +39,7 @@ const main = async () => {
     .forEach(async file => {
       const target = getPath(file.name)
       if (target) {
-        console.log(`${file.name} ->\n ${target}`)
+        console.log(`${file.name} ->\n ${target}\n`)
         await fs.rename(path.join(targetDir, file.name), target)
       }
     })
