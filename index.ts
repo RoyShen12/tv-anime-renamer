@@ -19,7 +19,7 @@ const getPath = (file: string) => {
   for (const [dir, regex] of Object.entries(list)) {
     if (regex.test(file)) {
       let match = dir.match(/S(\d+)/)
-      const season = match ? match[1] : '01'
+      const season = match ? match[1].padStart(2, '0') : '01'
       match = file.match(regex)
       const episode = match ? match[1] : '01'
       return path.join(storageDir, dir, `S${season}E${episode}`)
