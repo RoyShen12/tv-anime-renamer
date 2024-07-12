@@ -23,4 +23,6 @@ export const list = {
   '无名记忆 (2024)/S1': /\[Nekomoe kissaten\]\[Unnamed Memory\]\[(\d\d)\]\[1080p\]\[JPSC\]\.mp4/,
   '为美好的世界献上祝福！ (2016)/S3':
     /\[Sakurato\] Kono Subarashii Sekai ni Shukufuku wo! 3 \[(\d\d)\]\[AVC-8bit 1080p AAC\]\[CHS\]\.mp4/,
+  '不时用俄语小声说真心话的邻桌艾莉同学 (2024)/S1':
+    /\[Nekomoe kissaten&LoliHouse\] Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
 }
