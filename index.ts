@@ -1,4 +1,4 @@
-import { promises as fs } from 'fs'
+import { promises as fs, existsSync, mkdirSync } from 'fs'
 
 import { list } from './config'
 import path from 'path'
@@ -24,7 +24,9 @@ const getPath = (file: string) => {
       match = file.match(regex)
       const episode = match ? match[1] : '01'
       if (!episode) continue
-      return path.join(storageDir, dir, `S${season}E${episode}${path.extname(file)}`)
+      const seasonDir = path.join(storageDir, dir)
+      if (!existsSync(seasonDir)) mkdirSync(seasonDir, { recursive: true })
+      return path.join(seasonDir, `S${season}E${episode}${path.extname(file)}`)
     }
   }
 
