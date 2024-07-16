@@ -27,4 +27,5 @@ export const list = {
     /\[Nekomoe kissaten&LoliHouse\] Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
   '亚托莉 -我挚爱的时光- (2024)/S1':
     /\[KitaujiSub\] ATRI -My Dear Moments- \[(\d\d)\]\[WebRip\]\[HEVC_AAC\]\[CHS\]\.mp4/,
+  '亦叶亦花 (2024)/S1': /\[Nekomoe kissaten\]\[Na Nare Hana Nare\]\[(\d\d)\]\[1080p\]\[JPSC\]\.mp4/,
 }
