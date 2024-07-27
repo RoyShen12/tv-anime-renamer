@@ -25,7 +25,10 @@ const getPath = (file: string) => {
       const episode = match ? match[1] : '01'
       if (!episode) continue
       const seasonDir = path.join(storageDir, dir)
-      if (!existsSync(seasonDir)) mkdirSync(seasonDir, { recursive: true })
+      if (!existsSync(seasonDir)) {
+        console.log(`mkdir: ${seasonDir}`)
+        mkdirSync(seasonDir, { recursive: true })
+      }
       return path.join(seasonDir, `S${season}E${episode}${path.extname(file)}`)
     }
   }
