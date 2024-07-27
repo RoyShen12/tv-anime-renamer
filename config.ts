@@ -39,5 +39,6 @@ export const list = {
     /\[LoliHouse\] Dekoboko Majo no Oyako Jijou - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
   '租借女友 (2020)/S1': /Kanojo, Okarishimasu S01E(\d\d)-\[1080p\]\[BDRIP\]\[x265\.FLAC\]\.mkv/,
   '败犬女主太多了！ (2024)/S1': /\[Nekomoe kissaten\]\[Make Heroine ga Oosugiru!\]\[(\d\d)\]\[1080p\]\[\w+\]\.mp4/,
-  '地下城里的人们 (2024)/S1': /\[orion origin\] Dungeon no Naka no Hito \[(\d\d)\] \[1080p\] \[H265 AAC\] \[\w+\]\.mkv/,
+  '地下城里的人们 (2024)/S1':
+    /\[orion origin\] Dungeon no Naka no Hito \[(\d\d)\] \[1080p\] \[H265 AAC\] \[[\w &]+\]\.mkv/,
 }
