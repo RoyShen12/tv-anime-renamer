@@ -37,4 +37,5 @@ export const list = {
     /\[ANi\] 堤亞穆帝國物語～從斷頭台開始，公主重生後的逆轉人生～ - (\d\d) \[1080P\]\[Baha\]\[WEB-DL\]\[AAC AVC\]\[CHT\]\.mp4/,
   '凹凸魔女的母女故事 (2023)/S1':
     /\[LoliHouse\] Dekoboko Majo no Oyako Jijou - (\d\d) \[WebRip 1080p HEVC-10bit AAC ASSx2\]\.mkv/,
+  '租借女友 (2020)/S1': /Kanojo, Okarishimasu S01E(\d\d)-\[1080p\]\[BDRIP\]\[x265\.FLAC\]\.mkv/,
 }
