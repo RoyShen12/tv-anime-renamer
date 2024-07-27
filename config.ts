@@ -32,7 +32,7 @@ export const list = {
     /\[LoliHouse\] Katsute Mahou Shoujo to Aku wa Tekitai shiteita - (\d\d) \[WebRip 1080p HEVC-10bit AAC SRTx2\]\.mkv/,
   '死神 (2004)/S2':
     /\[Comicat&Romanticat\]\[Bleach Sennen Kessen Hen - Ketsubetsu Tan\]\[(\d\d)\]\[1080P\]\[GB\]\[MP4\]\.mp4/,
-  '白圣女与黑牧师 (2023)/S1': /Shiro Seijo to Kuro Bokushi S01E(\d\d)-\[1080p\]\[BDRIP\]\[x265.FLAC\]\.mkv/,
+  '白圣女与黑牧师 (2023)/S1': /Shiro Seijo to Kuro Bokushi S01E(\d\d)-\[1080p\]\[BDRIP\]\[x265\.FLAC\]\.mkv/,
   '堤亚穆帝国物语～从断头台开始，公主重生后的逆转人生～ (2023)/S1':
     /\[ANi\] 堤亞穆帝國物語～從斷頭台開始，公主重生後的逆轉人生～ - (\d\d) \[1080P\]\[Baha\]\[WEB-DL\]\[AAC AVC\]\[CHT\]\.mp4/,
   '凹凸魔女的母女故事 (2023)/S1':
